@@ -33,7 +33,7 @@ module.exports = [
       filename: "bundle.js",
       path: resolve(__dirname, "dist"),
       libraryTarget: "umd",
-      library: "UMDNAME",
+      library: "viphys",
     },
     resolve: {
       extensions: [".ts", ".js"],
